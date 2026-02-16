@@ -93,7 +93,7 @@ def main():
     ap.add_argument("--out_dir", type=str, default="outputs/exp01")
 
     # Training
-    ap.add_argument("--epochs", type=int, default=801)
+    ap.add_argument("--epochs", type=int, default=301)
     ap.add_argument("--batch_size", type=int, default=32)
     ap.add_argument("--lr", type=float, default=1e-4)
     ap.add_argument("--weight_decay", type=float, default=1e-2)
