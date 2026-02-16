@@ -60,7 +60,7 @@ Your model uses:
 
 -   **Stream A:** 5 channels\
 -   **Stream B:** 2 channels\
--   **Total:** 7-band radargram
+-   **Total:** 7-band dataset
 ### Two-Stream Band Configuration
 
 The input dataset consists of 7 bands that are split into two streams:
