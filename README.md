@@ -61,7 +61,14 @@ Your model uses:
 -   **Stream A:** 5 channels\
 -   **Stream B:** 2 channels\
 -   **Total:** 7-band radargram
+### Two-Stream Band Configuration
 
+The input dataset consists of 7 bands that are split into two streams:
+
+- Stream A (5 channels): bands (0, 3, 4, 5, 6)
+- Stream B (2 channels): bands (1, 2)
+
+Stream A carries the primary structural information, while Stream B provides complementary contextual cues. This design enables more effective feature disentanglement and improves segmentation robustness.
 Default model:
 
 ``` python
@@ -108,7 +115,7 @@ Minimum packages:
 -   numpy
 -   tqdm
 -   tifffile
--   segmentation-models-pytorch (optional)
+-   segmentation-models-pytorch 
 
 ------------------------------------------------------------------------
 
@@ -220,8 +227,12 @@ Try:
 
 ------------------------------------------------------------------------
 
-## 👨‍💻 Maintainer
+## 👨‍💻 Maintainers
 
-**Milkisa T. Yebasse**\
-PhD Researcher --- University of Trento\
-Applied AI for Radar Sounder Analysis
+**Milkisa T. Yebasse**  
+Ph.D. Student, Department of Information Engineering and Computer Science,  
+Remote Sensing Laboratory (RSLab), University of Trento, Italy  
+
+**Yongjie Zheng**  
+Ph.D. Student, Department of Information Engineering and Computer Science,  
+Remote Sensing Laboratory (RSLab), University of Trento, Italy
