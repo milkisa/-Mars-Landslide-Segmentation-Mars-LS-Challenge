@@ -1,0 +1,29 @@
+# python cache
+__pycache__/
+*.pyc
+
+# outputs / checkpoints / logs
+outputs/
+**/outputs/
+*.pt
+*.pth
+*.ckpt
+*.log
+
+# data / large files
+data/
+**/data/
+*.tif
+*.tiff
+*.zip
+
+# env / system
+.venv/
+.env/
+.DS_Store
+.cache/
+**/.cache/
+.cache/
+**/*.tif
+**/*.tiff
+**/*.png

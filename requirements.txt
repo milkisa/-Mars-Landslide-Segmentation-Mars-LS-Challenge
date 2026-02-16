@@ -1,0 +1,14 @@
+numpy<2
+rasterio
+matplotlib
+scikit-image
+pandas
+scipy
+segmentation-models-pytorch 
+lightning 
+albumentations
+timm
+imagecodecs
+tifffile
+wandb
+optuna
